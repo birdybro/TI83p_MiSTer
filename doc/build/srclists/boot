@@ -1,0 +1,9 @@
+src/pkg/z80_comm.vhd
+src/pkg/cmp_comm.vhd
+src/dbg/segment.vhd
+src/prm/registers.vhd
+src/ext/mem_if.vhd
+src/ext/bootloader.vhd
+tests/ext/m45w8mw16.vhd
+tests/fb/boot_fb.vhd
+tests/fb/boot_ftb.vhd

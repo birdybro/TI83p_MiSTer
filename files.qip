@@ -1,0 +1,59 @@
+set_global_assignment -name SDC_FILE TI83p.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE TI83p.sv
+
+set_global_assignment -name VHDL_FILE rtl/pkg/util.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/z80_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/alu.vhd
+
+set_global_assignment -name VHDL_FILE rtl/pkg/z80_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/cmp_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/registers.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/mem_if.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/bootloader.vhd
+
+set_global_assignment -name VHDL_FILE rtl/pkg/util.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/z80_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/ti_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/cmp_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/mem_ctrl.vhd
+
+set_global_assignment -name VHDL_FILE rtl/dbg/segment.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/registers.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/mem_if.vhd
+
+set_global_assignment -name VHDL_FILE rtl/pkg/util.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/ti_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/z80_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/pkg/cmp_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/clkgen.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/counters.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/registers.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/bram.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/regfile.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/alu.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/op_decoder.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/state_machine.vhd
+set_global_assignment -name VHDL_FILE rtl/z80/z80.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/kbd_ctrl.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/t6a04.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/hw_timers.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/interrupts.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/mem_ctrl.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/asic.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/ti.vhd
+set_global_assignment -name VHDL_FILE rtl/ti/status.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/m45w8mw16.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/kbd_enc.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/vga_motor.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/mem_if.vhd
+set_global_assignment -name VHDL_FILE rtl/dbg/chars.vhd
+set_global_assignment -name VHDL_FILE rtl/dbg/board.vhd
+set_global_assignment -name VHDL_FILE rtl/dbg/monitor_vga.vhd
+set_global_assignment -name VHDL_FILE rtl/dbg/trace.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/segment.vhd
+set_global_assignment -name VHDL_FILE rtl/comp.vhd
+
+set_global_assignment -name VHDL_FILE rtl/pkg/util.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/counters.vhd
+set_global_assignment -name VHDL_FILE rtl/prm/clkgen.vhd
+set_global_assignment -name VHDL_FILE rtl/ext/vga_motor.vhd
