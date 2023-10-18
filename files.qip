@@ -7,6 +7,7 @@ set_global_assignment -name VHDL_FILE rtl/z80/alu.vhd
 
 set_global_assignment -name VHDL_FILE rtl/pkg/z80_comm.vhd
 set_global_assignment -name VHDL_FILE rtl/pkg/cmp_comm.vhd
+set_global_assignment -name VHDL_FILE rtl/dbg/segment.vhd
 set_global_assignment -name VHDL_FILE rtl/prm/registers.vhd
 set_global_assignment -name VHDL_FILE rtl/ext/mem_if.vhd
 set_global_assignment -name VHDL_FILE rtl/ext/bootloader.vhd
@@ -42,7 +43,6 @@ set_global_assignment -name VHDL_FILE rtl/ti/mem_ctrl.vhd
 set_global_assignment -name VHDL_FILE rtl/ti/asic.vhd
 set_global_assignment -name VHDL_FILE rtl/ti/ti.vhd
 set_global_assignment -name VHDL_FILE rtl/ti/status.vhd
-set_global_assignment -name VHDL_FILE rtl/ext/m45w8mw16.vhd
 set_global_assignment -name VHDL_FILE rtl/ext/kbd_enc.vhd
 set_global_assignment -name VHDL_FILE rtl/ext/vga_motor.vhd
 set_global_assignment -name VHDL_FILE rtl/ext/mem_if.vhd
